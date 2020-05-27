@@ -1,0 +1,132 @@
+body{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color:rgb(255,255,235);
+	font-family: sans-serif;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+div a{
+	font-size: 30px;
+	color: green;
+	padding-left: .6em;
+	padding-right: 1em;
+}
+.icon{
+	display: flex ;
+	justify-content: space-between ;
+	width: 100%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+	border-bottom: 3px solid green;
+text-align: center;
+    padding-bottom: .3em;
+    margin: 1em;
+}
+.display{
+	display: flex;
+	flex-direction: column;
+	margin-top: 4%;
+	/*background-color: #ffffe1*/}
+header .icon{
+	border-bottom:2px solid #eee;
+}
+img{
+	width: 9rem;
+	height: 8rem;
+	border:2px solid white;
+	border-radius: 6px;
+	opacity:0.8;
+	transition: 0.3s;
+}
+img:hover{
+	width: 9rem;
+	height: 8rem;
+	border:2px solid green;
+	border-radius: 6px;
+	opacity:1;
+}
+h3{
+	padding-left: 1em;
+	padding-top: 1em;
+}
+.toms,.pams,.leather,.boots,.special,.chucks{
+	/*background-color:#fffee0;*/
+border-radius:3px;
+margin-left: 1.1em;
+}
+.sidenav a{
+	display:block ;
+	
+	
+
+}
+#sidenav{
+	display:none;
+	transition: 2s;
+	width: 100vw;
+    text-decoration: none;
+	text-align: center;
+	text-decoration: none;
+	
+}
+.nav{
+font-size: 1.2em;
+padding:1.1em;
+margin-right: 2em;
+border-bottom: 1px solid #eee;
+border-left: 1px solid #eee;
+width: 100vw;
+display: block;
+}
+#sidenav a:hover{
+font-size: 1.2em;
+padding:1.1em;
+margin-right: 2em;
+border-bottom: 1px solid #eee;
+border-left: 1px solid #eee;
+color:white;
+background-color: green;
+transition: 0.3s;
+width: 100vw;
+display: block;
+text-align: center;
+text-decoration: none;
+
+}
+#exit{
+	background-color: black;
+	color: white;
+	padding:1em;
+	font-size: 1.5em;
+	display: none;
+	text-align:center;
+	text-decoration: none;
+	
+	
+
+}
+#exit:hover{
+	background-color: green;
+	color: white;
+	padding:1em ;
+	font-size: 1.5em;
+	text-align:center;
+	text-decoration: none;
+	transition:0.5s;
+}
+.transit{
+	transition:3s;
+
+}
